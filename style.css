@@ -73,6 +73,7 @@ section{
 .button:hover{
     background: #a0d826;
 }
+
 .skills-card{
     background-image: url(img/form3.png);
     background-repeat: no-repeat;
@@ -84,7 +85,7 @@ section{
     margin-top: 100px;
     margin: 20px;
     padding-left: 10px;
-    width: 50%;
+    width: 38%;
 }
 .skills-card p{
     color: #000;
@@ -95,6 +96,21 @@ section{
     max-width: 500px;
     font-family: 'Comfortaa';
 }
+.works-block {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap:50px;
+    justify-content: center;
+    padding: 100px 0;
+    margin:auto
+
+}
+.works-block img {
+    width: 100%;
+}
+
 .comments-block{
     justify-content: space-evenly;
     max-width: 1150px;
@@ -257,6 +273,7 @@ nav{
 }
 .about-card img{
     padding-bottom: 20px;
+    width: 90%;
 }
 .about-content{
     width: 50%;
@@ -338,7 +355,6 @@ nav{
     }
     .about-block {
         flex-direction: column;
-        margin-top: 20px;
         padding: 0;
     }
     .about-card {
